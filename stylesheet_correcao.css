@@ -11,5 +11,34 @@ header{
 }
 
 nav a{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    width: 180px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 20px;
+}
 
+nav{
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a:hover{
+    opacity: 0.3;
+}
+
+main div{
+    float: left;
+    width: 80%;
+}
+
+main aside{
+    float: right;
+    width: 20%;
 }
