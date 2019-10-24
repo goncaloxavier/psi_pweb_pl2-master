@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <title>Ficha 3 - Ex 3</title>
     <link rel="stylesheet" href="F3_ex3_stylesheet.css">
-    <script src="F3_ex3_script.js"></script>
+    <script src="F3_ex3.script.js"></script>
 </head>
 <body>
-<img src="imagens\image.png" id="img">
-<button onclick="escondeMostra()">Esconder/Mostra</button>
-<button>Esconde (Espaço)</button>
-<button>Mostrar</button>
+    <div style="text-align: center">
+        <img src="imagens\image.png">
+        <div>
+            <button onclick="escondeMostra();">Esconder/Mostra</button>
+            <button onmouseover="esconde();">Esconde (Espaço)</button>
+            <button id="botao" onmouseover="mostra();">Mostra (Espaço)</button>
+        </div>
+    </div>
 </body>
 </html>
