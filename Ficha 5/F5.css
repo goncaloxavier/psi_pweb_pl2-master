@@ -1,0 +1,26 @@
+.jumbotron{
+    background-color: #f4511e;
+    color: white;
+}
+
+.logo-lg{
+    color: #f4511e;
+    font-size: 150px;
+}
+
+.logo-sm{
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.seccao{
+    padding: 20px 50px;
+}
+
+.bg-grey{
+    background-color: #f6f6f6;
+}
