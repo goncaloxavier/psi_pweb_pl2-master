@@ -24,3 +24,49 @@
 .bg-grey{
     background-color: #f6f6f6;
 }
+
+.carousel-indicators li{
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active{
+    background-color: #f4511e;
+}
+
+.carousel-indicators{
+    bottom: -30px;
+}
+
+.carousel-control.left, .carousel-control.right{
+    color: #f4511e;
+    background-image: none;
+}
+
+#icon-to-top{
+    color: #f4511e;
+}
+
+.navbar{
+    background-color: #f4511e;
+    font-size: 16px !important;
+    line-height: 50px !important;
+    border: none;
+}
+
+#thatNavbar li{
+    width: 150px;
+}
+
+#thatNavbar ul{
+    list-style-type: none;
+}
+
+#thatNavbar li a:hover{
+    color: #f4511e;
+    background-color: white;
+    text-decoration: none;
+}
+
+#thatNavbar li a{
+    color: white;
+}

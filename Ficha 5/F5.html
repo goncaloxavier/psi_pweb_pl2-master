@@ -9,7 +9,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body id="topo" data-spy="scroll" data-target=".navbar">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#thatNavbar" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">QUIZ</a>
+        </div>
+        <div class="navbar-collapse collapse" id="thatNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#seccao-sobre-quiz">SOBRE O QUIZ</a></li>
+                <li><a href="#seccao_categorias">CATEGORIAS</a></li>
+                <li><a href="#seccao_onde">ONDE ESTAMOS</a></li>
+                <li><a href="#seccao_testemunhos">TESTEMUNHOS</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <div class="jumbotron text-center">
     <h1>O meu Quiz</h1>
     <p>Joga Connosco!</p>
@@ -22,7 +42,7 @@
         </div>
     </form>
 </div>
-<div class="container-fluid seccao">
+<div id="seccao-sobre-quiz" class="container-fluid seccao">
     <div class="col-sm-8">
         <h2>Sobre o Quiz</h2>
         <h4>Jogo de Questionário</h4>
@@ -38,7 +58,7 @@
         <span class="glyphicon glyphicon-signal logo-lg"></span>
     </div>
 </div>
-<div class="container-fluid seccao bg-grey">
+<div id="seccao-porque-quiz" class="container-fluid seccao bg-grey">
     <div class="col-sm-4 logo-container">
         <span class="glyphicon glyphicon-globe logo-lg"></span>
     </div>
@@ -53,7 +73,7 @@
         </p>
     </div>
 </div>
-<div class="container-fluid seccao text-center">
+<div id="seccao_categorias" class="container-fluid seccao text-center">
     <h2>CATEGORIAS</h2>
     <h4>Que assuntos vai encontar no quiz?</h4>
     <div class="col-sm-4 logo-container">
@@ -72,7 +92,7 @@
         <p>Como se deve comportar...</p>
     </div>
 </div>
-<div class="container-fluid seccao bg-grey text-center">
+<div id="seccao_onde" class="container-fluid seccao bg-grey text-center">
     <h2>ONDE ESTAMOS?</h2>
     <h4>Cidades onde o quiz funciona</h4>
     <div class="col-sm-4 logo-container">
@@ -91,7 +111,7 @@
         <p>Como se deve comportar...</p>
     </div>
 </div>
-<div class="container-fluid gb-grey">
+<div id="seccao_testemunhos" class="container-fluid seccao text-center">
     <h3>Testemunhos de outros jogadores</h3>
     <div id="that-carousel" class="carousel">
         <div class="carousel-inner" role="listbox">
@@ -113,13 +133,19 @@
             <li data-target="#that-carousel" data-slide-to="1"></li>
             <li data-target="#that-carousel" data-slide-to="2"></li>
         </ol>
-        <a class="carousel-control" href="#that-carousel" data-slide="prev">
+        <a class="carousel-control left" href="#that-carousel" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
-        <a class="carousel-control" href="#that-carousel" data-slide="next">
+        <a class="carousel-control right" href="#that-carousel" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
     </div>
 </div>
+<footer class="container-fluid seccao text-center">
+    <a href="#topo">
+        <span id="icon-to-top" class="glyphicon glyphicon-chevron-up" role="button"></span>
+    </a>
+        <p>Exemplo de Boostrap preparado a partir de <a href="https://www.w3schools.com/">www.w3schools.com</a> para Programação Web Cliente</p>
+</footer>
 </body>
 </html>
